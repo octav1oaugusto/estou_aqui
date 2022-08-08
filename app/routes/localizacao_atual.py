@@ -5,4 +5,4 @@ from app.models.geo_localization import get_location
 
 @app.route("/geo-localizacao")
 def geo_localizacao(): 
-    return render_template('geo_localizacao.html', localization=get_location())
+    return render_template('geo_localizacao.html', localization='UNB')

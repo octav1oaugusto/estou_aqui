@@ -8,3 +8,5 @@ app.secret_key = '66e0c4a852d3b55ca598abf7792086b2'
 
 from app.routes import index
 from app.routes import localizacao_atual
+from app.routes import nps
+
